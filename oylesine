@@ -1,0 +1,12 @@
+print("hello world")
+#30 derecenin sinusunu hesaplayalim
+derece = 30
+radyan=math.radians(derece)
+print(radyan)
+sinus=math.sin(radyan)
+print(sinus)
+
+#30 derecenin sinusunu tek adimda kullanmak istersek
+derece=30
+sinus=math.sin(math.radians(derece))
+print(sinus)
