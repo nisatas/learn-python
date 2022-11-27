@@ -10,3 +10,12 @@ print(sinus)
 derece=30
 sinus=math.sin(math.radians(derece))
 print(sinus)
+
+
+#kendisine parametre olarak verilen bir sayinin kupunu hesaplayip geri donen bir fonksiyon yazalim
+def cube(n):
+    n_kup=n**3
+    return n_kup
+sayi=4
+sayinin_kubu=cube(4)
+print(sayinin_kubu)
