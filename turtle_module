@@ -1,0 +1,15 @@
+import turtle
+tospik= turtle.Turtle()
+tospik.speed(0)
+tospik.color("blue","red")
+def daire(yaricap):
+    tospik.right(90)
+    tospik.circle(yaricap)
+    tospik.left(90)
+    
+def ciz(tur,uzunluk,donmeacisi):
+    for i in range(tur):
+        daire(uzunluk)
+        tospik.right(donmeacisi)
+ciz(36,40,10)
+done()
